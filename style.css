@@ -89,6 +89,12 @@ button {
   background-color: rgb(74, 49, 99);
   color: seashell;
   font-size: 1.2rem;
+  transition: 350ms;
+}
+
+button:hover {
+  background-color: rgb(179, 145, 213);
+  color: rgb(52, 48, 45);
 }
 
 footer {
