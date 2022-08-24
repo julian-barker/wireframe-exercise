@@ -7,13 +7,17 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
 }
 
 header, footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: rgb(123, 96, 150);
+  background-color: rgb(74, 49, 99);
+  color: seashell;
+  padding: 15px;
   /* flex: 1 1 auto; */
 }
 
@@ -37,7 +41,7 @@ nav ul {
 
 main {
   width: 960px;
-  margin-bottom: 80px;
+  margin-bottom: 130px;
 }
 
 main > img {
@@ -68,14 +72,31 @@ main > section > img {
 main > section > div {
   height: 100%;
   padding-left: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+main > section > div > h3 {
+  margin: 0;
 }
 
 main > section > div > p {
   overflow: scroll;
 }
 
+button {
+  height: 32px;
+  width: 40%;
+  border: none;
+  padding: 4px;
+  background-color: rgb(74, 49, 99);
+  color: seashell;
+  font-size: 1.2rem;
+}
+
 footer {
-  height: 50px;
+  height: 70px;
   position: absolute;
   bottom: 0;
 }
